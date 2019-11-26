@@ -64,7 +64,7 @@
         <h3>Hello world!</h3>
 
     <div id="myDiv">
-            <p>
+            <p id="parag">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
@@ -133,12 +133,48 @@
             para.innerText = "Thank you ";
             document.body.appendChild(para);
             para.style.padding = "20px";
-            para.style.fontSize = "30px";
-            
+            para.style.fontSize = "30px";      
     }
 
+        document.getElementById("parag").onmouseover=function() {
+            this.style.color = "blue";
+        }
+    
+ 
+    </script>
+
+
+    <script>
+       //practicing java Script with local server and chrome dev console
+        var myVar = 87;
+        myVar--;
+        console.log(myVar);
+
+        var cl = console.log ;  // cl will work as console.log as shortcut
+        var quotient = 4.4 / 2.0;
+        cl(quotient);
 
     
+        cl(5 % 2);
+
+        var remainder = 11 % 3;
+        if (remainder === 2) {
+            console.log ("it is an even number!");
+        }
+        else {
+            console.log("Odd number");
+        }
+
+        a = 5;
+        a += 5;
+        cl(a);
+
+        var myFirstName = "Mo";
+        var myLastName = "Alam";
+        console.log("Hello " + myFirstName + " " + myLastName);
+
+        var myStr = "I am a \"double quoted\" string inside \"double quotes\" ";
+        cl(myStr);
     </script>
 
 </body>
