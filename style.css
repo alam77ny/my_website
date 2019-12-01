@@ -30,4 +30,9 @@ footer {
 	clear: both;
 	text-align: center;
 	font-size: 1.3em;
-	}
+    }
+    
+.containter img {
+    width: 450px;
+    height: 300px
+    }
