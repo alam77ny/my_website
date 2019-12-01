@@ -31,8 +31,14 @@ footer {
 	text-align: center;
 	font-size: 1.3em;
     }
-    
+
+.containter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .containter img {
     width: 450px;
-    height: 300px
+    height: 300px;
+    margin: 10px;
     }
