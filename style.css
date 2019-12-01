@@ -1,0 +1,33 @@
+
+body {
+	background-image: url(bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+
+h2 {
+	color: red;
+	text-align: center;
+	border: 5px dashed purple;
+	cursor: pointer;
+}
+
+p { 
+	color: yellow;
+ }
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+
+img {float: right;}
+
+footer {
+	clear: both;
+	text-align: center;
+	font-size: 1.3em;
+	}
